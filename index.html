@@ -7,20 +7,19 @@ title: Cowsay
   <img src="images/simple_moo_terminal_screenshot.png"/>
 </center>
 
-        <h1>
-
+<h1>
 <a id="cowsay" class="anchor" href="#cowsay" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cowsay</h1>
 
 <p>Cowsay provides configurable talking cows at the terminal or other text presentation location.</p>
 
 <h2>
-<a id="cowsay-apj" class="anchor" href="#cowsay-apj" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>cowsay-apj</h2>
+<a id="cowsay-org" class="anchor" href="#cowsay-org" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>cowsay-org</h2>
 
 <p>This project you're looking at is Andrew Janke's fork of Tony Monroe's cowsay. It was created to provided ongoing maintenance and hosting for cowsay, and is an exercise in applying Open Source development and deployment practices to a small project. My hope is that this becomes the canonical modern fork of cowsay.</p>
 
-<p>This forked project is called "cowsay-apj" where needed to distinguish it from the original cowsay project. The program is still called "cowsay".</p>
+<p>This forked project is called "cowsay-org" where needed to distinguish it from the original cowsay project. The program is still called "cowsay".</p>
 
-<p>Cowsay was originally written by Tony Monroe. The cowsay-apj updates primarily provide maintenance, hosting, and deployment support. The main functionality and code are from Tony Monroe. Anything involving bureaucracy and software development process were added by Andrew Janke and cowsay-apj contributors.</p>
+<p>Cowsay was originally written by Tony Monroe. The cowsay-org updates primarily provide maintenance, hosting, and deployment support. The main functionality and code are from Tony Monroe. Anything involving bureaucracy and software development process were added by Andrew Janke and cowsay-org contributors.</p>
 
 <p>Andrew Janke is on GitHub at <a href="https://github.com/apjanke" class="user-mention">@apjanke</a>.</p>
 
@@ -34,11 +33,13 @@ title: Cowsay
 
 <p>Download cowsay from <a href="https://github.com/cowsay-org/cowsay/releases">the GitHub Releases page</a> and follow the instructions in the distribution.</p>
 
-<p>If you are using <a href="http://brew.sh/">Homebrew</a> on Mac OS X, you can install cowsay with Homebrew:</p>
+<p>If you are using <a href="http://brew.sh/">Homebrew</a> on Mac, you can install cowsay with Homebrew:</p>
 
 <pre><code>$ brew tap cowsay-org/cowsay
-$ brew install cowsay-apj
+$ brew install cowsay-org
 </code></pre>
+
+<p>Note that this cowsay-org package conflicts with the <a href="https://formulae.brew.sh/formula/cowsay">cowsay package from core Homebrew</a>, because they supply the same programs. You need to uninstall the regular cowsay package before installing cowsay-org, with <code>brew uninstall cowsay</code>.</p>
 
 <h2>
 <a id="development-and-support" class="anchor" href="#development-and-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development and Support</h2>
