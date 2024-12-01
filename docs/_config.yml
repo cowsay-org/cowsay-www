@@ -1,2 +1,26 @@
-name: Andrew Janke
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Cowsay
+email: floss@apjanke.net
+description: >- # this means to ignore newlines until "baseurl:"
+  Web site for the Cowsay project.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cowsay.diamonds" # the base hostname & protocol for your site, e.g. http://example.com
+
+author: Andrew Janke
+github_username:  apjanke
+twitter:
+  username: cowsay_org
+
+permalink: /:year/:month/:day/:title:output_ext
+
+# Build settings
 markdown: kramdown
+theme: minima
+plugins:
+  # - jekyll-feed
+  - jekyll-seo-tag
