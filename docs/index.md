@@ -33,7 +33,7 @@ If you are using [Homebrew](https://brew.sh) on Mac (or Linux), you can install 
 $ brew install cowsay
 ```
 
-There is also a [`cowsay-org/cowsay` custom Tap](https://github.com/cowsay/homebrew-cowsay-org) with some supplemental cowsay-related formulae for use with `brew`.
+There is also a [`cowsay-org/cowsay` custom Tap](https://github.com/cowsay-org/homebrew-cowsay) with some supplemental cowsay-related formulae for use with `brew`.
 
 ## Development and Support
 
